@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all{
+  display: flex;  
+  width: 100%;
+  /* padding: 0 20px; */
+  
+}
+
+.cadastro{
+  /* background-color: antiquewhite; */
+  width: 30%;
+  padding: 10px 0;  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cadastro input, .cadastro select{
+  display: block;
+  width: 70%;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.contas{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 15px;
+  border-left: 2px solid black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.conta{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.conta__left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  height: 130px;
+  padding: 15px;
+}
+
+.conta__left p:first-child{
+  font-weight: bold;
+}
+
+.valor{
+  background-color:#fff;
+  width: 30%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+
+}
+
+.close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.entrada{
+  background-color: rgb(130, 255, 130);
+}
+
+.saida{
+  background-color: rgba(255, 136, 116, 0.63);
+}

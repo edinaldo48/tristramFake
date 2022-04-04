@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="estilo.css">
+  <title>modelo</title>
+</head>
+
+<body>  
+    <main class="all">
+      <section class="cadastro">
+        <form action="" id="form">
+          <h2>CADASTRO</h2>
+          <input type="text" placeholder="digite a data" id="data" required>
+          <select name="" id="status">
+            <option value="nada">------</option>
+            <option value="entrada">entrada</option>
+            <option value="saida">saida</option>
+          </select>
+          <input type="text" placeholder="digite o tipo" id="tipo" required>
+          <input type="text" placeholder="digite a chave" id="chave" required>
+          <input type="text" placeholder="digite a id" id="id" required>
+          <input type="text" placeholder="digite o valor" id="valor" required>
+          <input type="submit" value="cadastrar" id="submit">
+        </form>
+      </section>
+      <section class="contas">
+        <h2>Histórico</h2>
+        <div class="container" id="container">
+          <div class="conta">
+            <span class="close">X</span>
+            <div class="conta__left">
+              <p>01/01/2022</p>
+              <p>pix in</p>
+              <p>chave</p>
+              <p>id</p>
+            </div>
+            <div class="valor"><p>R$ 19,90</p></div>
+          </div>
+          <div class="conta">
+            <span class="close">X</span>
+            <div class="conta__left">
+              <p>01/01/2022</p>
+              <p>pix in</p>
+              <p>chave</p>
+              <p>id</p>
+            </div>
+            <div class="valor"><p>R$ 19,90</p></div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <script src="sript.js"></script>
+</body>
+
+</html>
